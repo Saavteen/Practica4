@@ -13,11 +13,11 @@ int countEqualDivisors(int n) {
 
 int main() {
     int n;
-    printf("Введіть натуральне число n: ");
+    printf("Enter a positive integer n: ");
     scanf("%d", &n);
 
     int result = countEqualDivisors(n);
-    printf("Кількість рівних дільників числа %d: %d\n", n, result);
+    printf("Number of equal divisors of a number %d: %d\n", n, result);
 
     return 0;
 }
